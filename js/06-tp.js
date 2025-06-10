@@ -1,6 +1,6 @@
 // pedir al usuario que ingrese dos numeros
-let numero1 = parseFloat(prompt("Introduce el primer número:"));
-let numero2 = parseFloat(prompt("Introduce el segundo número:"));
+let numero1 = parseInt(prompt("Introduce el primer número:"));
+let numero2 = parseInt(prompt("Introduce el segundo número:"));
 
 // condicion para ver que numero es mayor, y mostrar el resultado
 if (numero1 > numero2) {
