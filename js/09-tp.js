@@ -1,5 +1,5 @@
 // Pedir una frase al usuario
-let frase = prompt("Ingresa una frase:");
+let frase = prompt("Ingresa una frase:").toLocaleLowerCase();
 let vocales = ""; // variable vacia, para guardar las vocales encontradas
 
 // para hacer el recorrido de cada letra
